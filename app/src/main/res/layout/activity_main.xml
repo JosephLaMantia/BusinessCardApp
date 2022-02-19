@@ -11,6 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="370dp"
         android:layout_height="54dp"
+        android:layout_marginTop="80dp"
         android:background="#50000000"
         android:fontFamily="monospace"
         android:text="Joseph LaMantia"
@@ -18,8 +19,9 @@
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
